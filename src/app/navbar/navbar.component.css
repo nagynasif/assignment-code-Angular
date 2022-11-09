@@ -1,0 +1,22 @@
+
+#navbar{
+  color: #fff;
+  background: #2c3e50 !important;
+}
+
+.navbar-brand{
+
+  text-transform: uppercase;
+}
+.nav-item{
+  padding: 0 5px;
+}
+.nav-link,
+.navbar-brand{
+  color: #fff;
+  font-weight: 700 !important;
+}
+
+.nav-link:hover{
+ color: #1abc9c;
+}

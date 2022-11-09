@@ -1,0 +1,32 @@
+#about
+{
+  background-color:  #1abc9c;
+}
+.start{
+  position: relative;
+ margin: 5px;
+}
+.start::before{
+ content: " ";
+ height: 5px;
+ width: 100px;
+ background-color: #fff;
+ position: absolute;
+ left: 40%;
+ top: 50%;
+}
+.start::after{
+  content: "";
+  height:  5px;
+  width: 100px;
+  background-color: #fff;
+  position: absolute;
+ right: 40%;
+  top: 50%;
+
+ }
+
+ .active{
+  background-color: #1abc9c !important;
+  padding: 10px 20px;
+ }

@@ -1,0 +1,31 @@
+.head-portfolio {
+  color: #2c3e50 !important;
+}
+.head-portfolio h1{
+  font-weight: 900;
+}
+
+
+.image-porfolio img{
+  border-radius: 5%;
+}
+.port-content{
+  position: relative;
+}
+.overlay{
+ position: absolute;
+ width: 100%;
+ background-color: #1abc9c;
+ top: 0;
+ bottom: 0;
+ border-radius: 5%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ opacity: 0;
+
+}
+.overlay:hover{
+  opacity: 0.9;
+  transition: transform .3s ease;
+}

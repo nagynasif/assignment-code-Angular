@@ -1,0 +1,46 @@
+.hero{
+  background-color: #1abc9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-contact{
+
+}
+.hero-image
+{
+  width: 250px;
+}
+
+.hero-content
+{
+  color: #fff;
+
+}
+
+/* .hero-content h1{
+ font-weight: 900;
+} */
+.start{
+  position: relative;
+ margin: 5px;
+}
+.start::before{
+ content: " ";
+ height: 5px;
+ width: 100px;
+ background-color: #fff;
+ position: absolute;
+ left: 20%;
+ top: 50%;
+}
+.start::after{
+  content: "";
+  height:  5px;
+  width: 100px;
+  background-color: #fff;
+  position: absolute;
+ left:58%;
+  top: 50%;
+
+ }
